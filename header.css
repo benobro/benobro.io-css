@@ -1,0 +1,193 @@
+/* benobro.io - header.css */
+/* Copright © 2016-17 Ben O'Brien. All rights reserved. */
+
+/* navbar-sticky (benobro.io , By Ben O'Brien) */
+
+div, ul, a, li, div:hover:before, a:hover{
+	-o-transition:background-color .225s, width .15s, height.15s;
+	-ms-transition:background-color .225s, width .15s, height.15s;
+	-moz-transition:background-color .225s, width .15s, height.15s;
+	-webkit-transition:background-color .225s, width .15s, height.15s;
+	transition:background-color .225s, width .15s, height.15s;
+}
+
+a.heading{
+	text-decoration: none;
+	font-size:100%;
+	font-family:"Raleway";
+	color:rgba(255, 255, 255, 1);
+}
+
+a.heading:hover{
+	text-decoration:none;
+}
+
+.navbar-collapse-div{
+	display:none;
+
+	height:10%;
+	width:100%;
+	position:relative;
+	background-image:url(http://test.benobro.io/img/site/bg-landscape.png);
+}
+
+.title-url a {
+	font-family:"parisplus-clair";
+	font-size:110%;
+	text-decoration:none;
+	color:rgba(255, 255, 255, 1);
+	align-content:center;
+}
+
+.title-url a:hover {
+	color:rgb(32, 197, 181);
+	text-decoration:none;
+}
+
+.navbar-sticky{
+	border:2px solid rgba(255, 255, 255, 1);
+	width:100%;
+	align-self:center;
+}
+
+.navbar-sticky:hover{
+	background-color:rgba(255, 255, 255, 1);
+	color:rgb(32, 197, 181);
+	text-decoration:none;
+}
+
+div.benobroio {
+	width:100%;
+	text-align:center;
+	padding-bottom:none;
+	text-decoration:none;
+}
+
+div.benobrien {
+	width:100%;
+	text-align:center;
+	padding-top:none;
+}
+
+
+/* navbar-nav */
+
+div.nav-button-trigger{
+	display:none;
+	text-align:right;
+}
+
+.displayer-normal{
+	display:flex;
+}
+
+.displayer-inherit{
+	display:inherit;
+}
+
+.displayer-none{
+	display:none;
+}
+
+ul.navbar-nav {
+    list-style-type: none;
+    margin-bottom:5%;
+    margin-top:5%;
+    padding: 0;
+    width: 100%;
+    background-color: inherit;
+	text-align:center;
+	font-size:145%;
+	font-family:"parisplus-clair";
+	border:2px solid rgba(255, 255, 255, 1);
+}
+
+.navbar-maincontainer {
+	height:100%;
+	width:21%;
+	position:fixed;
+	background-image:url("http://test.benobro.io/img/site/bg.png");
+	padding:.5%;
+	align-items: center;
+	overflow:auto;
+	margin:0;
+	border-bottom:none;
+
+}
+
+.navbar-subcontainer{
+	width:100%;
+	height:auto;
+}
+
+.navbar-collapse, .navbar-collapse-subcontainer{
+	display:none;
+}
+
+#nav-li a {
+    display: block;
+    color: white;
+    padding: 20px 5%;
+    text-decoration: none;
+}
+
+#nav-li a:hover {
+    background-color:rgba(255, 255, 255, 1);
+    color: rgb(32, 197, 181);
+}
+
+/* SM link icons (.social-container) */
+
+.social-container {
+	width:100%;
+	height:auto;
+	margin:0;
+	text-align:center;
+	border:2px solid rgba(255, 255, 255, 1);
+	padding:.5%;
+}
+		/* twitter */
+
+.twitter-social{
+	display:inline;
+	width:50%;
+	margin-right:3%;
+}
+.twitter-social:before{
+	font-family:FontAwesome;
+	content:"\f099";
+	font-size:375%;
+	text-decoration: none;
+	color:rgba(255, 255, 255, 1);
+}
+
+.twitter-social:hover:before{
+	color:#00aced;
+}
+a.a-twitter{
+	text-decoration: none;
+}
+
+.github-social{
+	display:inline;
+	width:50%;
+	margin-left:3%;
+}
+
+.github-social:before{
+	font-family:FontAwesome;
+	content:"\f09b";
+	font-size:375%;
+	text-decoration: none;
+	color:rgba(255, 255, 255, 1);
+}
+
+.github-social:hover:before{
+	color:#333;
+}
+
+a.a-github{
+	text-decoration:none;
+}
+
+

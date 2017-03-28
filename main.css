@@ -1,0 +1,474 @@
+/* benobro.io - main.css (for everything except header) */
+/* Copyright © 2016-17 Ben O'Brien. All rights reserved */
+
+/* general */
+
+html{
+	scroll-behavior: smooth;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+a.lines-button, a.x, a.close{
+	display:none;
+}
+
+body{
+	margin:0;
+	background-color: #ECECEC;
+	font-family:"Raleway";
+}
+.container-noheader{
+	width:77%;
+	float:right;
+	margin:1%;
+	background-color:#F2F2F2;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+.section-spacer{
+	width:100%;
+	height:20px;
+	background-color:#ECECEC;
+}
+
+h2{
+	font-size:170%;
+}
+
+.post-content{
+	font-size:120%;
+}
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+
+code{
+	padding: .25em .5em;
+    font-size: 85%;
+    color:#990033;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #e6e6e6;
+}
+
+pre code{
+	color:black;
+	font-size:85%;
+}
+
+code, pre{
+	font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.unformatted-container{
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+
+
+/* about section */
+
+
+
+#about {
+    width:100%;
+	align-content:center;
+	margin-bottom:.5%;
+}
+
+.heading-h1{
+	text-align:center;
+	background-image:url(http://test.benobro.io/img/site/triang.svg);
+	height:auto;
+	color:white;
+	padding:.55%;
+}
+
+
+h1.heading{
+	font-family:"parisplus-clair";
+	font-size:250%;
+    display: table; 
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-top:.5%;
+    margin: 8px auto 8px auto;
+    background-color:rgba(255, 255, 255, 0.2);
+    color:rgba(255, 255, 255, 1);
+    border:2px solid rgba(255, 255, 255, 1);
+}
+
+	/* about-intro */
+
+.about-intro{
+	height:auto;
+	padding:1%;
+	width:100%;
+	text-align:center;
+}
+
+img.avatar{
+	height:90px;
+	width:90px;
+	border-radius:50%;
+	padding:1%;
+	vertical-align: bottom;
+}
+
+.about-intro-text{
+	font-family:"m-1c";
+}
+
+.intro-text-top-handle{
+	font-size:100%;
+}
+
+.intro-text-top{
+	font-size:125%;
+}
+
+
+
+	/* about-social */
+
+
+
+
+.around-the-web{
+	vertical-align:bottom;
+}
+
+.about-social-maincontainer{
+	width:99%;
+	height:auto;
+	margin:.5%;
+	margin-bottom:0%;
+
+
+}
+
+.about-social-subcontainer {
+	width:auto;
+	height:auto;
+	margin:0;
+	text-align:center;
+	border:.5px solid #555;
+	padding:.5%;
+}
+
+		/* twitter */
+
+.twitter-about{
+	display:inline;
+	width:auto;
+	margin-right:1.5%;
+}
+.twitter-about:before{
+	font-family:FontAwesome;
+	content:"\f099";
+	font-size:375%;
+	text-decoration: none;
+	color:rgba(85, 85, 85, 1);
+}
+
+.twitter-about:hover:before{
+	color:#00aced;
+}
+a.a-twitter{
+	text-decoration: none;
+}
+
+.github-about{
+	display:inline;
+	width:50%;
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
+
+.github-about:before{
+	font-family:FontAwesome;
+	content:"\f09b";
+	font-size:375%;
+	text-decoration: none;
+	color:rgba(85, 85, 85, 1);
+}
+
+.github-about:hover:before{
+	color:#333;
+}
+
+a.a-github{
+	text-decoration:none;
+}
+
+
+		/* contact-icon */
+
+.contact-icon{
+	display:inline;
+	width:50%;
+	margin-left:1.5%;
+}
+
+.contact-icon:before{
+	font-family:FontAwesome;
+	content:"\f003";
+	font-size:375%;
+	text-decoration:none;
+	color:#555;
+}
+
+.contact-icon:hover:before{
+	color:rgb(32, 197, 181);
+}
+
+a.a-contact{
+	text-decoration:none;
+}
+
+
+
+/* posts */
+
+
+
+
+.content-container{
+	margin-top:1%;
+}
+
+a.title-a{
+	font-family:"m-1c";
+	font-size:105%;
+	text-decoration:none;
+
+}
+
+	a.title-a:hover{
+		text-decoration:underline;
+	}
+
+.date-div{
+	font-family:"macho";
+	font-size:125%;
+	color:#555;
+}
+
+.title-date-div{
+	margin:0;
+	padding:0;
+}
+
+h1.post-title{
+	margin:0;
+}
+
+.post{
+	margin-top:15px;
+}
+
+.posts-posts {
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.post-data{
+	padding-top:1%;
+	padding-bottom:2%;
+}
+
+.read-more-link{
+	border-bottom:.5px solid #b3b3b3;
+	padding-bottom:.5%;
+}
+
+	.read-more-link:last-child{
+		border-bottom:none;
+	}
+
+/* posts (pages) */
+
+
+.page-post{
+	padding:1%;
+
+}
+/* contact section */
+
+.contact-intro{
+	width:100%;
+	text-align:center;
+}
+
+
+
+
+/* footer */
+
+
+
+
+.footer-main{
+	width:79%;
+	float:right;
+	height:auto;
+	text-align:center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: rgba(85, 85, 85, 1);
+	color:rgba(255, 255, 255, 0.85);
+}
+
+.footer-copyright{
+	display:inline;
+	width:97%;
+	padding-left, padding-right:1%;
+	padding-top:0.5%;
+	padding-bottom:0.25%;
+	font-size:130%;
+}
+
+.footer-hugo-madein{
+	font-size:82.5%;
+}
+
+.footer-urls{
+	font-size:105%;
+}
+
+/* @media */
+
+
+
+
+@media (max-width:1400px) {
+		body{
+			font-size:14px;
+		}
+
+		img.avatar{
+			height:75px;
+			width:75px;
+		}
+}
+
+@media (max-width: 1024px) {
+
+		.displayer-normal{
+			display:none;
+		}
+
+
+		div.nav-button-trigger{
+			display:inherit;
+		}
+
+		.navbar-maincontainer{
+			width:75%;
+			align-self:right;
+		}
+
+			.navbar-subcontainer{
+				display:none;
+			}
+
+
+		a.lines-button, a.x, a.close{
+			display:inherit;
+		}
+
+	
+			.container-noheader{
+		    width: 98%;
+		    float: right;
+		    margin: 1%;
+		    background-color:#F2F2F2;
+		}
+
+		.footer-main{
+			width:100%;
+			padding-top:5px;
+			padding-bottom:5px;
+		}
+
+		.twitter:hover:before, .github:hover:before, .contact-icon:hover:before{
+				color:#555;
+		}
+
+		a.title-a:hover{
+				text-decoration:none;
+		}
+
+		a:hover{
+				text-decoration:none;
+		}
+
+
+}
+
+@media (max-width:737px){
+		.navbar-maincontainer{
+			width:100%;
+		}
+}
+
+
+
+@media (max-width:412px) {
+		body{
+			font-size:12px;
+		}
+
+		img.avatar{
+			height:45px;
+			width:45px;
+		}
+
+		.post{
+			margin-top:10px;
+		}
+
+		.navbar-maincontainer{
+			width:100%;
+		}
+
+}
+
+@media (max-width:135px) {
+	body{
+		display: none;
+	}
+}
